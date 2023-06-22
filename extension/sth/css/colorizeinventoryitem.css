@@ -1,0 +1,12 @@
+.item.colorized-background {
+  background-image: none !important;
+}
+
+.item.activeInfo.colorized-background {
+  opacity: 0.92;
+  background-image: none !important;
+}
+
+.item.colorized-background:hover {
+  opacity: 0.7;
+}

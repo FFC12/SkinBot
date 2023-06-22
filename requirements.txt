@@ -1,0 +1,4 @@
+selenium
+loguru
+undetected-chromedriver
+beautifulsoup4

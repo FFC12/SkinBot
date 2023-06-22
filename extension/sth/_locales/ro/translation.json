@@ -1,0 +1,51 @@
+﻿{
+  "langcode": "ro",
+  "about": {
+    "title": "Despre"
+  },
+  "settings": {
+    "title": "Setări",
+    "inventory": {
+      "buyset": "Butoanele pentru cumpărare în set",
+      "quicksell": "Butonul vânzare rapidă (Quicksell)",
+      "quickselldif": "Diferență vânzare rapidă",
+      "listdelay": "Delay-ul dintre listări",
+      "simpify": "Simplifică interfața"
+    },
+    "history_sales": {
+      "title": "Istoricul vânzărilor",
+      "color_slot_removed": "Highlight slot removed",
+      "color_slot_placed": "Highlight slot placed",
+      "color_slot_purchased": "Highlight purchase",
+      "color_slot_sold": "Highlight sale",
+      "no_history": "Mărimea paginii istoricului (10 - 100)"
+    },
+    "listingmarket": {
+      "quickbuy": "Buton cumpărare rapidă",
+      "no_listings": "Numărul listărilor",
+      "no_history": "Mărimea paginii istoricului(Transferate în secțiunea \"Istoricul vânzărilor\")",
+      "totalrow": "Toate rândurile",
+      "highlight": "Evidențiază prețurile ridicate"
+    },
+    "tradeoffer": {
+      "autodecline": "Declină ofertele expirate",
+      "offerdelay": "Delay la verificare preț",
+      "autocheckofferprice": "Calculează auto prețurile când primesc ofertă",
+      "custombuttons": "Butoane personalizate"
+    },
+    "friends": {
+      "ignoreinvites": "Ignoră invitațiile de mai jos",
+      "blockinvites": "Blochează invitațiile de mai jos"
+    },
+    "general": {
+      "currency": "Monedă",
+      "displaynof": "Arată notificările",
+      "displayvector": "Arată prețul vector",
+      "language": "Limbă",
+      "nofsound": "Sunet notificare",
+      "nofsound_vol": "Volum sunet",
+      "showsteamrep": "Arată SteamRep"
+    },
+    "note": "Trebuie să da-ți refresh la pagină ca setările să aibă efect"
+  }
+}

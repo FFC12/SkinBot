@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('chrome-extension://__MSG_@@extension_id__/font/Roboto-Regular.ttf');
+url('chrome-extension://__MSG_@@extension_id__/font/Roboto-Regular.woff2') format('woff2'),
+url('chrome-extension://__MSG_@@extension_id__/font/Roboto-Regular.woff') format('woff'),
+font-weight: normal;
+  font-style: normal;
+}

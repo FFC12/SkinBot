@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Manrope';
+  src: url('chrome-extension://__MSG_@@extension_id__/font/manrope.ttf');
+  url('chrome-extension://__MSG_@@extension_id__/font/manrope.woff2') format('woff2'),
+  url('chrome-extension://__MSG_@@extension_id__/font/manrope.woff') format('woff'),
+  font-weight: normal;
+  font-style: normal;
+}

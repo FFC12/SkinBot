@@ -1,0 +1,58 @@
+﻿{
+  "langcode": "lv",
+  "about": {
+    "title": "Informācija"
+  },
+  "bookmarks": {
+    "title": "Grāmatzīmes"
+  },
+  "faq": {
+    "title": "BUJ"
+  },
+  "settings": {
+    "title": "Uzstādijumi",
+    "inventory": {
+      "buyset": "\"Nopirkt kopu\" Pogas",
+      "listdelay": "Laika starpība starp sarakstiem",
+      "quicksell": "\"Ātrā pārdošana\" poga",
+      "quickselldif": "Ātrās pārdošanas dif",
+      "simpify": "Vienkāršot izklājumu"
+    },
+    "history_sales": {
+      "title": "Pārdošanas vēsture",
+      "color_slot_removed": "Highlight slot removed",
+      "color_slot_placed": "Highlight slot placed",
+      "color_slot_purchased": "Highlight purchase",
+      "color_slot_sold": "Highlight sale",
+      "no_history": "Vēstures lapas izmērs (10 - 100)"
+    },
+    "listingmarket": {
+      "quickbuy": "\"Ātrā pirkšana\" poga",
+      "no_history": "Vēstures lapas izmērs(Nodota sadaļā \"Pārdošanas vēsture\")",
+      "no_listings": "Sarakstu skaits",
+      "totalrow": "Kopējā rinda",
+      "highlight": "Izcelt dārgākos"
+    },
+    "tradeoffer": {
+      "autocheckofferprice": "Automātiski saņemt cenas par piedāvājumu",
+      "autodecline": "Noraidīt nepieejamos piedāvājumus",
+      "custombuttons": "Modificēt pogas",
+      "offerdelay": "Piedāvājuma cenas taimeris"
+    },
+    "friends": {
+      "ignoreinvites": "Ignorēt zemākesošos uzaicinājumus",
+      "blockinvites": "Bloķēt zemākesošos uzaicinājumus"
+    },
+    "general": {
+      "currency": "Valūta",
+      "displaynof": "Rādīt paziņojumus",
+      "displayvector": "Rādīt vektora cenas",
+      "language": "Valodad",
+      "nofsound": "Paziņojuma skaņā",
+      "nofsound_vol": "Skaņas skaļums",
+      "showsteamrep": "Parādīt steam reputāciju"
+    },
+    "autoreply": "Automātiskā atbilde",
+    "note": "Tev jāpārlādē lapa lai veiktu izmaiņas"
+  }
+}

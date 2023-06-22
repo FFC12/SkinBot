@@ -1,0 +1,52 @@
+﻿{
+  "langcode": "sv",
+  "about": {
+    "title": "Om"
+  },
+  "settings": {
+    "title": "Alternativ",
+    "inventory": {
+      "buyset": "\"Köp uppsättning\" knappa",
+      "listdelay": "Fördröjning mellan varje försäljning",
+      "quicksell": "\"Snabb sälj\" knapp",
+      "quickselldif": "Snabb sälj skillnad",
+      "simpify": "Förenkla UI"
+    },
+    "history_sales": {
+      "title": "Försäljningshistoria",
+      "color_slot_removed": "Highlight slot removed",
+      "color_slot_placed": "Highlight slot placed",
+      "color_slot_purchased": "Highlight purchase",
+      "color_slot_sold": "Highlight sale",
+      "no_history": "Historikens sid storlek (10 - 100)"
+    },
+    "listingmarket": {
+      "highlight": "Markera för dyra",
+      "no_history": "Historikens sid storlek(Överförts till avsnittet \"Försäljningshistorik\")",
+      "no_listings": "Antalet försäljningar",
+      "quickbuy": "\"Snabb köp\" knappa",
+      "totalrow": "Total rad"
+    },
+    "tradeoffer": {
+      "autodecline": "neka otillgängliga erbjudanden",
+      "offerdelay": "Erbjudandes priskontroll fördröjning",
+      "autocheckofferprice": "Hitta priser automatiskt under erbjudanden",
+      "custombuttons": "Anpassade knappar"
+    },
+    "friends": {
+      "ignoreinvites": "Ignorera inbjudningar under",
+      "blockinvites": "Blockera inbjudningar under"
+    },
+    "general": {
+      "currency": "Valuta",
+      "displaynof": "Visa notis",
+      "displayvector": "Visa vektor pris",
+      "language": "Språk",
+      "nofsound": "Notis ljud",
+      "nofsound_vol": "ljud volym",
+      "showsteamrep": "Visa Steamrep"
+    },
+    "autoreply": "Auto svara",
+    "note": "Du måste hämta alla aktiva sidor igen for att förändringarna ska gälla"
+  }
+}

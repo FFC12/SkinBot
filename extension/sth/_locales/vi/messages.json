@@ -1,0 +1,10 @@
+﻿{
+  "extension_description": {
+    "message": "Chương trình mở rộng bao gồm nhiều tiện ích hỗ trợ traders đánh giá và mua bán dễ dàng hơn.",
+    "description": "Extension's description"
+  },
+  "langcode": {
+    "message": "vi",
+    "description": ""
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "langcode": "zh_CN",
+  "about": {
+    "title": "关于",
+    "version": "版本",
+    "store_link": "Chrome 网上应用店",
+    "changelogs": "更新日志",
+    "steam_group": "Steam 群组",
+    "description": "如果您有任何建议或者需要提交 Bug，请发送邮件至 <a href='mailto:csinvhelp@gmail.com'>csinvhelp@gmail.com</a> 或者在我们的 <a href='https://steamcommunity.com/groups/SteamInventoryHelper' target='_blank'>Steam 群组</a>置顶帖中留言。"
+  },
+  "tradeoffers": {
+    "title": "交易报价",
+    "signedout": "您尚未登录 Steam，请<a href='https://steamcommunity.com/login/' target='_blank'>登录</a>或在设置页面填写您的 <b>SteamAPI 密钥</b>",
+    "pending": "正在获取报价信息，请稍等……",
+    "nooffers": "当前没有收到任何报价",
+    "countoffers": "您有 {{NUMBERS}} 条交易报价",
+    "offerfrom": "{{USERNAME}} 向您发送了交易报价",
+    "offernoname": "其他人向您发送了交易报价",
+    "confirmation": "您确定吗？",
+    "yourprice": "您的价格",
+    "theirprice": "对方的价格",
+    "cancel": "取消",
+    "openall": "打开所有",
+    "open": "打开",
+    "declineall": "拒绝所有",
+    "decline": "拒绝",
+    "quickaccept": "快速接受",
+    "quickrefuse": "快速拒绝",
+    "sponsor": "Enter the promocode and win your dream inventory.",
+    "csmoney": "CS.MONEY | CS:GO 交易机器人",
+    "payskins": "通过皮肤支付",
+    "buyskins": "购买皮肤",
+    "sellskins": "出售皮肤",
+    "giveaway": "赠品"
+  },
+  "marketgraph": {
+    "title": "市场图表"
+  },
+  "bookmarks": {
+    "title": "收藏夹",
+    "name": "名称",
+    "volume": "数量",
+    "price": "价格",
+    "empty": "列表为空",
+    "manage": "管理分类",
+    "selectcat": "选择分类",
+    "categorieslist": "分类列表",
+    "addcategory": "添加分类",
+    "categoryname": "分类名称",
+    "add": "添加"
+  },
+  "faq": {
+    "title": "常见问题"
+  },
+  "stores": {
+    "title": "商店设置",
+    "prices": {
+      "title": "商店价格",
+      "show_historical_price": "显示历史最低价格",
+      "show_current_price": "显示当前最低价格",
+      "show_regional_price": "显示区域价格",
+      "preferred_country": "外部商店价格（国家）",
+      "show_all_stores": "其它商店价格（勾选商店以隐藏）",
+      "add_another_region": "添加"
+    },
+    "highlight": {
+      "title": "高亮显示商店物品",
+      "wishlist_items": "高亮显示愿望单中的商品",
+      "owned_items": "高亮显示已拥有的商品"
+    },
+    "others": {
+      "title": "其他",
+      "show_streamlink": "显示 Youtube 和 Twitch 的链接",
+      "show_online_users": "显示在线玩家人数",
+      "show_spent_money": "显示您的账户消费信息"
+    }
+  },
+  "settings": {
+    "title": "库存和市场",
+    "inventory": {
+      "title": "库存",
+      "buyset": "“买齐整套”按钮",
+      "quicksell": "“快速出售”按钮",
+      "instantsell": "“立即出售”按钮",
+      "selectall": "“选择全部”按钮",
+      "getprice": "“库存价值”按钮",
+      "quickselldif": "快速出售差值",
+      "listdelay": "上架延迟",
+      "hidedefaultprice": "隐藏默认价格信息",
+      "simpify": "简化库存界面",
+      "show_float_value": "显示“获取磨损值”功能",
+      "tradableinfo": "显示不可交易物品概览",
+      "show_levelup": "在徽章页面显示升级面板（实验性）"
+    },
+    "history_sales": {
+      "title": "销售历史",
+      "color_slot_removed": "Highlight slot removed",
+      "color_slot_placed": "Highlight slot placed",
+      "color_slot_purchased": "Highlight purchase",
+      "color_slot_sold": "Highlight sale",
+      "no_history": "历史记录显示数量 (10 - 100)"
+    },
+    "listingmarket": {
+      "title": "上架与市场",
+      "quickbuy": "“快速购买”按钮",
+      "no_mylistings": "出售物品显示数量",
+      "no_listings": "订购单显示数量",
+      "no_history": "历史记录显示数量(转移到“销售历史”部分)",
+      "totalrow": "显示物品总价值",
+      "overallsum": "显示所有页物品总价值",
+      "highlight": "高亮显示定价过高的商品",
+      "show_get_float": "显示“获取磨损值”功能",
+      "show_orders_currencies": "显示订单货币",
+      "show_more_orders": "显示更多购买/出售订单",
+      "orders_amount": "订单显示总数",
+      "show_stickers_wear": "显示“磨損貼紙“功能"
+    },
+    "tradeoffer": {
+      "title": "交易报价",
+      "autocheckofferprice": "报价时自动获取价格",
+      "autodecline": "拒绝已失效的报价",
+      "autoaccept": "自动接收礼物报价（您不提供任何物品）",
+      "offerdelay": "价格获取延迟",
+      "quickaccept": "快速接受",
+      "delay": "延迟",
+      "confirm": "显示确认信息",
+      "quickrefuse": "快速拒绝",
+      "totalprice": "显示报价总价值",
+      "custombuttons": "自定义按钮",
+      "manage": "管理"
+    },
+    "friends": {
+      "title": "好友请求",
+      "ignoreinvites": "忽略低于",
+      "blockinvites": "屏蔽低于",
+      "steamlevel": "Steam 等级或",
+      "private": "个人资料私密",
+      "total": "总计",
+      "reset": "清空"
+    },
+    "extprice": {
+      "title": "外部价格",
+      "showprice": "显示外部价格",
+      "masslisting": "数据量大时仍显示",
+      "bgcolor": "背景颜色",
+      "textcolor": "文字颜色",
+      "customprovider": "自定义价格信息来源"
+    },
+    "profile": {
+      "title": "个人资料",
+      "showsteamrep": "显示 SteamRep",
+      "show_permalink": "显示个人资料永久链接",
+      "show_related_accounts": "显示 Steam 相关网站的链接（勾选网站以隐藏）"
+    },
+    "general": {
+      "title": "常规",
+      "txt_apikey": "输入您的 API 密钥",
+      "txt_custom": "自定义声音文件的 URL",
+      "auto_currency": "自动（使用钱包货币）",
+      "auto_language": "自动（使用浏览器语言）",
+      "autogetprice": "自动获取价格",
+      "on_hover": "鼠标悬停时",
+      "agp_gem": "Dota 2 宝石",
+      "agp_sticker": "CS:GO 贴纸",
+      "success": "成功",
+      "error": "错误",
+      "displaynof": "显示通知",
+      "offers": "交易报价",
+      "friends": "好友请求",
+      "comments": "留言",
+      "nofsound": "通知音效",
+      "nofsound_vol": "通知音量",
+      "displayvector": "显示向量价格",
+      "show_streamlink": "在Youtube 和 Twitch 上显示链接",
+      "hidebanner": "隐藏赞助商广告",
+      "bookmarks": "收藏夹",
+      "ck_show": "显示",
+      "manage": "管理分类",
+      "clear": "清空收藏夹",
+      "apikey": "Steam API 密钥",
+      "get_apikey": "获取您的密钥",
+      "currency": "货币",
+      "language": "语言"
+    },
+    "default": "默认",
+    "defaultreset": "恢复默认",
+    "note": "您需要刷新当前页面，使以上设置生效"
+  },
+  "newupdate": {
+    "updated_to": "已经更新至",
+    "last_changes": "最近更新",
+    "view_changes": "点击此处查看更新日志",
+    "skip": "跳过",
+    "or": "或"
+  }
+}

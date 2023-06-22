@@ -1,0 +1,316 @@
+﻿.add-to-bookmarks {
+  margin: 0;
+  padding: 0;
+  display: none;
+  background: #1F1F1F;
+  border: 1px #808080 solid;
+}
+
+.add-to-bookmarks li {
+  list-style: none;
+  line-height: 24px;
+}
+
+.add-to-bookmarks li a {
+  display: block;
+  padding-left: 20px;
+}
+
+.add-to-bookmarks li a:hover {
+  background: #2F2F2F;
+}
+
+.add-to-bookmarks-link {
+  background: url(https://store.akamai.steamstatic.com/public/images/v6/icon_bucket_new.png) center left 5px no-repeat;
+  padding: 3px 3px 3px 25px;
+  margin: 7px 0;
+  display: block;
+  border: 1px #808080 solid;
+  line-height: 24px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.add-to-bookmarks-container {
+  /* position: absolute;
+  top: -28px;
+  right: 15px; */
+  display: inline-block;
+  position: relative;
+  min-width: 180px;
+}
+
+.add-to-bookmarks-container .arrow {
+  float: right;
+}
+
+.sih-market-action {
+  font-size: 12px;
+  color: #7caf38;
+  text-decoration: underline;
+  margin-right: 8px;
+}
+
+.float_block {
+  display: inline;
+  font-size: 12px;
+}
+
+.float_block .floatbutton, .float_block .wear_and_price_button, .sticker_price_button {
+  color: #7caf38;
+  font-size: 12px;
+  text-decoration: underline;
+  padding-right: 5px;
+}
+
+.float_block .float_data {
+  display: none;
+  margin: 10px auto;
+  text-align: left;
+  color: #9EA7B3;
+}
+
+/*.sih-market-action:hover {
+    color: #7caf38;
+}*/
+
+
+
+#searchResultsRows .market_listing_row .sih.market_listing_item_name_block {
+  margin-top: 30px;
+  max-width: 310px;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+.market_listing_row {
+  padding: 7px;
+}
+
+.sih-inspect-magnifier {
+  display: none;
+  position: absolute;
+  height: 64px;
+  width: 64px;
+  left: 5px;
+  top: 5px;
+  background: #FFF url(chrome-extension://__MSG_@@extension_id__/assets/magnifier.png) center center no-repeat;
+  opacity: .4;
+}
+.market_actionmenu_button {
+  bottom: 0;
+}
+
+.market_listing_row .additional {
+  position: absolute;
+  display: none;
+  padding: 0 10px;
+  min-width: 170px;
+  left: -195px;
+  top: -1px;
+  color: #d2d2d2;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: #16202d;
+}
+
+.market_listing_row .additional .item:not(:last-child) {
+  border-bottom: solid 1px #d2d2d2;
+}
+
+.market_listing_row .additional .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.market_listing_row .additional .item .value {
+  color: #fff;
+}
+
+.market_listing_row:hover .additional,
+.market_listing_row:hover .sih-inspect-magnifier {
+  display: block;
+}
+
+/* --------------------------------------------------------------------------------------------------- */
+.dropbtn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn > span {
+  display: inline-block;
+  background: none;
+  padding: 0;
+}
+
+.dropbtn > span:hover {
+  background: none;
+}
+
+#largeiteminfo {
+  display: inline-block;
+  overflow: inherit !important;
+}
+
+.bpoints {
+  position: relative;
+  height: 24px;
+  line-height: 24px;
+  padding: 0 0 0 24px;
+  white-space: nowrap;
+  z-index: 5;
+  background-image: url('chrome-extension://__MSG_@@extension_id__/assets/providers/bpoints.png');
+  background-repeat: no-repeat;
+  background-size: 24px;
+}
+
+.bpoints::before {
+  position: absolute;
+  left: 24px;
+  content: attr(data-price);
+  padding: 0 0 0 5px;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+}
+
+.items-per-page-select {
+  padding: 3px 4px 4px 4px;
+}
+
+.items-per-page-select:focus {
+  outline: none !important;
+}
+
+#button_up {
+  display: none;
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+  width: 44px;
+  height: 44px;
+  background: url('/assets/buttonUp.png') no-repeat;
+  cursor: pointer;
+}
+
+.filter_container {
+  display: flex;
+}
+
+.filter_row_around {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.filter_row_between {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter_row_start {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.filter_column {
+  flex-direction: column;
+}
+
+.filter_container .filter_setting {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0);
+  display: none;
+}
+
+.filter_container .filter_button {
+  text-align: center;
+  margin: 10px;
+  width: 400px;
+}
+
+.filter_container .filter_setting .row {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.filter_container .filter_setting .row > .row {
+  margin: 0px;
+}
+
+.filter_container .filter_setting .row > div {
+  flex: auto;
+}
+
+.filter_container .filter_input_setting {
+  margin: 5px 0px;
+}
+
+.filter_container .filter_input_setting > div {
+  margin: 5px 0px;
+}
+
+
+.filter_container .filter_input_setting.filter_paint_seed input[type="text"] {
+  width: 100%;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.filter_container .filter_input_setting.filter_float input[type="number"] {
+  width: 30px;
+  text-align: center;
+  margin: 0px 5px;
+}
+
+.filter_container .filter_input_setting.filter_float .slider_container {
+  width: 100%;
+  margin: 0px 17px 0px 10px;
+}
+
+.ui-slider-range.ui-corner-all.ui-widget-header {
+  display: none;
+}
+
+.filter_container label.title {
+  margin-right: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+span.ui-slider-handle.ui-corner-all.ui-state-default {
+  background: #799905;
+  background: -webkit-linear-gradient(top, #799905 5%, #536904 95%);
+  background: linear-gradient(to bottom, #799905 5%, #536904 95%);
+  border: 1px solid #799905 !important;
+}
+
+div.range_slider.ui-slider.ui-corner-all.ui-slider-horizontal.ui-widget.ui-widget-content {
+  background-color: rgb(58, 58, 58) !important;
+  border: 1px solid rgb(58, 58, 58) !important;
+}
+
+span {
+  outline: none;
+}
+
+.newmodal_header .title_text {
+  max-width: 744px;
+}

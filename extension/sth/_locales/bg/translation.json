@@ -1,0 +1,54 @@
+﻿{
+  "about": {
+    "title": "Информация"
+  },
+  "bookmarks": {
+    "title": "Bookmarks"
+  },
+  "faq": {
+    "title": "ЧЗВ"
+  },
+  "langcode":  "bg",
+  "settings": {
+    "title": "Настройки",
+    "inventory": {
+      "buyset": "\"Купи комплект\" бутони",
+      "quicksell": "\"Бързо продаване\" бутони",
+      "quickselldif": "Разлика при бързо продаване",
+      "listdelay": "Изчакване между обяви",
+      "simpify": "Опростяване на UI-то"
+    },
+    "history_sales": {
+      "title": "История на продажбите",
+      "color_slot_removed": "Highlight slot removed",
+      "color_slot_placed": "Highlight slot placed",
+      "color_slot_purchased": "Highlight purchase",
+      "color_slot_sold": "Highlight sale",
+      "no_history": "History page size (10 - 100)"
+    },
+    "listingmarket": {
+      "quickbuy": "\"Бързо Купуване\" бутони",
+      "no_listings": "Брой на обявите",
+      "totalrow": "Общ ред",
+      "highlight": "Highlight overpriced"
+    },
+    "tradeoffer": {
+      "autocheckofferprice": "Автоматично взимане на цените при оферта",
+      "offerdelay": "Проверка на цената на оферта през",
+      "custombuttons": "Персонализирани бутони"
+    },
+    "friends": {
+      "ignoreinvites": "Игнорирай покани под",
+      "blockinvites": "Блокирай покани под"
+    },
+    "general": {
+      "displaynof": "Показване на известия",
+      "nofsound": "Звук при известие",
+      "displayvector": "Покажи цена на вектора",
+      "showsteamrep": "Показване на Steamrep",
+      "currency": "Валута",
+      "language": "Език"
+    },
+    "note": "Трябва да презаредите страницата за да влязат новите настроики в ефект."
+  }
+}

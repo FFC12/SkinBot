@@ -1,0 +1,46 @@
+﻿{
+  "langcode": "vi",
+  "settings": {
+    "title": "Cài đặt",
+    "inventory": {
+      "buyset": "Nút \"Buy set\"",
+      "quicksell": "Nút \"Quick sell\"",
+      "quickselldif": "Chênh lệch khi bán nhanh",
+      "listdelay": "Delay khi bán",
+      "simpify": "Đơn giản hóa UI"
+    },
+    "history_sales": {
+      "title": "Lịch sử bán hàng",
+      "color_slot_removed": "Highlight slot removed",
+      "color_slot_placed": "Highlight slot placed",
+      "color_slot_purchased": "Highlight purchase",
+      "color_slot_sold": "Highlight sale",
+      "no_history": "Số dòng/trang (10 - 100)"
+    },
+    "listingmarket": {
+      "quickbuy": "Nút \"Quick buy\"",
+      "no_history": "Số dòng/trang (Chuyển sang phần \"Lịch sử bán hàng\")",
+      "no_listings": "Số dòng trên trang listings",
+      "totalrow": "Dòng giá tổng"
+    },
+    "tradeoffer": {
+      "autocheckofferprice": "Tự lấy giá khi offer trade",
+      "custombuttons": "Nút lấy nhanh",
+      "offerdelay": "Thời gian delay lấy giá"
+    },
+    "friends": {
+      "ignoreinvites": "Bỏ qua lời mời",
+      "blockinvites": "Block lời mời"
+    },
+    "general": {
+      "displaynof": "Hiện cảnh báo trade offer",
+      "nofsound": "Âm thanh cảnh báo",
+      "nofsound_vol": "Âm lượng",
+      "currency": "Đơn vị tiền",
+      "showsteamrep": "Hiện Steamrep",
+      "language": "Ngôn ngữ",
+      "displayvector": "Hiển thị giá trung gian"
+    },
+    "note": "Bạn phải refresh các trang đang chạy để có hiệu lực"
+  }
+}

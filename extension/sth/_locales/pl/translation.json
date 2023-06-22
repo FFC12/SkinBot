@@ -1,0 +1,191 @@
+﻿{
+  "langcode": "pl",
+  "about": {
+    "title": "O dodatku",
+    "version": "Wersja",
+    "store_link": "Link do sklepu",
+    "changelogs": "Changelog",
+    "steam_group": "Grupa Steam",
+    "description": "Jeżeli masz jakies pomysły lub znalazłeś błędy, skontaktuj się z nami na <a href='mailto:csinvhelp@gmail.com'>csinvhelp@gmail.com</a> lub wyślij wiadomośc na <a href='https://steamcommunity.com/groups/SteamInventoryHelper' target='_blank'>naszej grupie Steam</a> odpowiadając w jednej z dyskusji."
+  },
+  "tradeoffers": {
+    "title": "Oferty wymiany",
+    "signedout": "Steam: Zostałeś wylogowany ze swojego konta. <a href='https://steamcommunity.com/login/' target='_blank'>Zaloguj się</a> lub ustaw <b> klucz SteamAPI</b> w ustawieniach",
+    "pending": "Ładowanie ofert. Proszę czekać...",
+    "nooffers": "Aktualnie nie masz przychodzących ofert",
+    "countoffers": "Masz {{NUMBERS}} ofert wymiany",
+    "offerfrom": "Dostałeś ofertę od {{USERNAME}}",
+    "offernoname": "Dostałeś ofertę",
+    "confirmation": "Jesteś pewny?",
+    "yourprice": "Twoja cena",
+    "theirprice": "Ich cena",
+    "cancel": "Anuluj",
+    "openall": "Otwórz wszystkie",
+    "open": "Otwórz",
+    "declineall": "Odrzuć wszystkie",
+    "decline": "Odrzuć",
+    "quickaccept": "Szybka akceptacja",
+    "quickrefuse": "Szybka odmowa",
+    "sponsor": "Bezpieczny rynek P2P dla elementów CSGO i DOTA 2. 40% zniżki na Steam"
+  },
+  "marketgraph": {
+    "title": "Wykres rynku"
+  },
+  "bookmarks": {
+    "title": "Zakładki",
+    "name": "Nazwa",
+    "volume": "Ilość",
+    "price": "Cena",
+    "empty": "Lista jest pusta",
+    "manage": "Zarządzaj kategoriami",
+    "selectcat": "Wybierz kategorię",
+    "categorieslist": "Lista kategorii",
+    "addcategory": "Dodaj kategorie",
+    "categoryname": "Nazwa kategorii",
+    "add": "Dodaj"
+  },
+  "faq": {
+    "title": "FAQ"
+  },
+  "stores": {
+    "title": "Ustawienia sklepu",
+    "prices": {
+      "title": "Ceny w sklepach",
+      "show_historical_price": "Pokaż najniższą cenę kiedykolwiek",
+      "show_current_price": "Pokaż aktualną najniższą cenę",
+      "show_regional_price": "Pokaż lokalną cenę",
+      "preferred_country": "Ceny w zewnętrznych sklepach (krajach)",
+      "show_all_stores": "Ceny ze wszystkich sklepów (Odznacz aby wybrać sklepy)",
+      "add_another_region": "Dodaj"
+    },
+    "highlight": {
+      "title": "Podświetlanie przedmiotów",
+      "wishlist_items": "Podświetl pozycje z listy życzeń",
+      "owned_items": "Podświetl pozycje z twojej biblioteki"
+    },
+    "others": {
+      "title": "Inne",
+      "show_streamlink": "Pokaż link do Youtube i Twitch",
+      "show_online_users": "Pokaż licznik aktywnych graczy",
+      "show_spent_money": "Pokaż informacje na temat wydanych pieniędzy"
+    }
+  },
+  "settings": {
+    "title": "Ustawienia ekwipunku i rynku Steam",
+    "inventory": {
+      "title": "Ekwipunek",
+      "buyset": "Przycisk \"Kup brakujące przedmioty\"",
+      "quicksell": "Przycisk \"Szybka sprzedaż\"",
+      "instantsell": "Przycisk \"Natychmiastowa sprzedaż\"",
+      "selectall": "Przycisk \"Zaznacz wszystko\"",
+      "getprice": "Przycisk \"Wartość ekwipunku\"",
+      "quickselldif": "Różnica szybkiej sprzedaży",
+      "listdelay": "Opóźnienie między publikacją ofert",
+      "hidedefaultprice": "Ukryj domyślną cenę",
+      "simpify": "Prosty interfejs",
+      "show_float_value": "Pokaż funkcję \"Pokaż Float\"",
+      "tradableinfo": "Pokaż podsumowanie niewymienialnych przedmiotów",
+      "show_levelup": "Pokaż panel awansu na stronie z odznakami (BETA)"
+    },
+    "history_sales": {
+      "title": "Historia sprzedaży",
+      "color_slot_removed": "Highlight slot removed",
+      "color_slot_placed": "Highlight slot placed",
+      "color_slot_purchased": "Highlight purchase",
+      "color_slot_sold": "Highlight sale",
+      "no_history": "Rozmiar strony z historią (10 - 100)"
+    },
+    "listingmarket": {
+      "title": "Oferty i rynek",
+      "quickbuy": "Przycisk \"Szybki zakup\"",
+      "no_mylistings": "Liczba moich ofert sprzedaży",
+      "no_listings": "Liczba ofert",
+      "no_history": "Rozmiar strony z historią(Przeniesiony do sekcji \"Historia sprzedaży\")",
+      "totalrow": "Wyświetl łączną cenę przedmiotów",
+      "overallsum": "Wyświetl łączną cenę wszystkich przedmiotów",
+      "highlight": "Podświetl zbyt drogie oferty",
+      "show_get_float": "Pokaż funkcję \"Pokaż Float\"",
+      "show_orders_currencies": "Pokaż waluty ofert",
+      "show_more_orders": "Wyświetl więcej ofert",
+      "orders_amount": "Ilość wyświetlanych ofert"
+    },
+    "tradeoffer": {
+      "title": "Oferty wymiany",
+      "autocheckofferprice": "Automatycznie ładuj ceny podczas wymiany",
+      "autodecline": "Odrzuć niedostępne oferty wymiany",
+      "autoaccept": "Automatycznie akceptuj \"prezenty\" (gdy twoja strona wymiany jest pusta)",
+      "offerdelay": "Opóźnienie sprawdzenia ceny wymiany",
+      "quickaccept": "Szybka akceptacja",
+      "delay": "Opóźnienie",
+      "confirm": "Pokaż potwierdzenie",
+      "quickrefuse": "Szybkie odrzucenie",
+      "totalprice": "Pokaż cenę całkowitą wymiany",
+      "custombuttons": "Własne przyciski",
+      "manage": "Zarządzaj"
+    },
+    "friends": {
+      "title": "Prośby znajomych",
+      "ignoreinvites": "Ignoruj poniższe zaproszenia",
+      "blockinvites": "Zablokuj poniższe zaproszenia",
+      "steamlevel": "Poziom steam lub czy",
+      "private": "profil jest prywatny",
+      "total": "Całkowita",
+      "reset": "Reset"
+    },
+    "extprice": {
+      "title": "Ceny zewnętrzne",
+      "showprice": "Pokaż ceny zewnętrzne",
+      "masslisting": "Pokaż wszystkie oferty",
+      "bgcolor": "Kolor tła",
+      "textcolor": "Kolor tekstu",
+      "customprovider": "Własny dostawca cen"
+    },
+    "profile": {
+      "title": "Profil",
+      "showsteamrep": "Pokaż SteamRep",
+      "show_permalink": "Pokaż link do profilu",
+      "show_related_accounts": "Pokaż linki do wszystkich usług Steam (odznacz aby wybrać usługi)"
+    },
+    "general": {
+      "title": "Ogólne",
+      "txt_apikey": "Podaj klucz API Steam",
+      "txt_custom": "Link do własnego dźwięku",
+      "auto_currency": "Auto (użyj waluty portfela)",
+      "auto_language": "Auto (użyj języka przeglądarki)",
+      "autogetprice": "Automatycznie sprawdź cenę",
+      "on_hover": "Przy najechaniu myszką",
+      "agp_gem": "Gemy Dota 2",
+      "agp_sticker": "Naklejki CS:GO",
+      "success": "Sukces",
+      "error": "Błąd",
+      "displaynof": "Pokaż powiadomienia",
+      "offers": "Oferty wymiany",
+      "friends": "Zaproszenia do znajomych",
+      "comments": "Komentarze",
+      "nofsound": "Dźwięk powiadomień",
+      "nofsound_vol": "Głośność",
+      "displayvector": "Pokaż cenę wektorową",
+      "hidebanner": "Ukryj reklamy sponsorów",
+      "bookmarks": "Zakładki",
+      "ck_show": "Pokaż",
+      "manage": "Zarządzaj kategoriami",
+      "clear": "Wyczyść zakładki",
+      "apikey": "Klucz Steam API",
+      "get_apikey": "Wygeneruj klucz",
+      "currency": "Waluta",
+      "language": "Język",
+      "showsteamrep": "Pokaż panel SteamRep"
+    },
+    "default": "Domyślne",
+    "defaultreset": "Ustawienia domyślne",
+    "autoreply": "Automatyczna odpowiedź",
+    "note": "Musisz odświeżyć stronę aby zobaczyć zmiany"
+  },
+  "newupdate": {
+    "updated_to": "został zaktualizowany do wersji",
+    "last_changes": "Ostatnie zmiany",
+    "view_changes": "Kliknij aby zobaczyć dziennik zmian",
+    "skip": "Pomiń",
+    "or": "lub"
+  }
+}

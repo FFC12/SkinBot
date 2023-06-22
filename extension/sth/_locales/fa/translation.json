@@ -1,0 +1,206 @@
+﻿{
+  "langcode": "fa",
+  "about": {
+    "title": "درباره",
+    "version": "ورژن",
+    "store_link": "لینک فروشگاه",
+    "changelogs": "تغییرات",
+    "steam_group": "گروه استیم",
+    "privacy_policy": "سیاست حفظ حریم خصوصی"
+  },
+  "tradeoffers": {
+    "title": "پیشنهادات تجاری",
+    "signedout": "Steam: You have been signed out of your account. Please <a href='https://steamcommunity.com/login/' target='_blank'>sign in</a> or set <b>SteamAPI key</b> in Settings",
+    "pending": "Fetching offers. Please wait ...",
+    "nooffers": "You have no incoming trade offers at this time",
+    "countoffers": "You have {{NUMBERS}} trade offer(s)",
+    "offerfrom": "You have offer from {{USERNAME}}",
+    "offernoname": "You have offer",
+    "confirmation": "Are you sure?",
+    "yourprice": "Your price",
+    "theirprice": "Their price",
+    "cancel": "Cancel",
+    "openall": "Open all",
+    "open": "Open",
+    "declineall": "Decline all",
+    "decline": "Decline",
+    "quickaccept": "Quick accept",
+    "quickrefuse": "Quick refuse",
+    "sponsor": "Enter the promocode and win your dream inventory"
+  },
+  "marketgraph": {
+    "title": "نمودار بازار"
+  },
+  "bookmarks": {
+    "title": "نشانک ها",
+    "name": "نام",
+    "volume": "مقدار",
+    "price": "قیمت",
+    "empty": "لیست خالی است",
+    "manage": "دسته ها را مدیریت کنید",
+    "selectcat": "دسته را انتخاب کنید",
+    "categorieslist": "لیست دسته ها",
+    "addcategory": "افزودن دسته ها ",
+    "categoryname": "نام دسته ها",
+    "add": "اضافه کردن",
+    "export": "صادرات",
+    "import": "وارد كردن"
+  },
+  "faq": {
+    "title": "سالات متداول"
+  },
+  "stores": {
+    "title": "تنظیمات فروشگاه",
+    "prices": {
+      "title": "قیمت های فروشگاه",
+      "show_historical_price": "پایین ترین قیمت تمام زمان ها را نشان دهید",
+      "show_current_price": "نمایش پایین ترین قیمت واقعی",
+      "show_regional_price": "نمایش قیمت منطقه ای",
+      "preferred_country": "قیمت فروشگاه های خارجی (کشور)",
+      "show_all_stores": "قیمت از همه فروشگاه ها (علامت انتخاب فروشگاه ها را بردارید)",
+      "add_another_region": "اضافه کردن"
+    },
+    "highlight": {
+      "title": "موارد را برجسته کنید",
+      "wishlist_items": "موارد را از لیست خواسته ها برجسته کنید",
+      "owned_items": "موارد موجود در کتابخانه خود را برجسته کنید"
+    },
+    "others": {
+      "title": "دیگر",
+      "show_streamlink": "پیوندها را در Youtube و Twitch نشان دهید",
+      "show_online_users": "نمایش شمارنده بازیکنان آنلاین",
+      "show_spent_money": "اطلاعات مربوط به وجوه صرف شده در حساب خود را نشان دهید",
+      "show_badge_progress": "پیشرفت نشان برنامه ها را نشان دهید"
+    }
+  },
+  "settings": {
+    "title": "تنظیمات موجودی و بازار",
+    "inventory": {
+      "title": "فهرست موجودی",
+      "buyset": "دکمه خرید اقلام گمشده",
+      "quicksell": "دکم فروش سریع",
+      "instantsell": "دکمه فروش فوری",
+      "selectall": "دکمه انتخاب همه",
+      "getprice": "دکمه مقدار موجودی",
+      "quickselldif": "اختلاف فروش سریع",
+      "listdelay": "تأخیر در بین قرار دادن لیست ها",
+      "hidedefaultprice": "پنهان کردن اطلاعات پیش فرض قیمت",
+      "simpify": "رابط کاربری ساده",
+      "show_float_value": "Show \"Get Float\" function",
+      "tradableinfo": "نمایش خلاصه موارد غیرقابل تجارت",
+      "show_trade_unlock_date_badge": "تاریخ باز کردن قفل یک مورد را روی شکاف آن نمایش دهید",
+      "show_inventory_rarity_color": "Display an additional colored frames with item rarity in CS:GO inventory",
+      "show_phase_color": "Display items phases",
+      "show_improved_inventory_nav": "Improved inventory navigation",
+      "show_price_difference_warning": "Show price difference warning in bulk sale window",
+      "show_levelup": "Show Level Up panel on the Badges page (BETA)",
+      "levelup_use_available_cards": "Use already existing cards in your inventory for the Level Up feature"
+    },
+    "history_sales": {
+      "title": "تاریخ فروش",
+      "color_slot_removed": "Highlight slot removed",
+      "color_slot_placed": "Highlight slot placed",
+      "color_slot_purchased": "Highlight purchase",
+      "color_slot_sold": "Highlight sale",
+      "no_history": " (10 - 100)اندازه صفحه تاریخچه"
+    },
+    "listingmarket": {
+      "title": "لیست ها و بازار",
+      "quickbuy": "دکمه خرید سریع",
+      "no_mylistings": "تعداد لیست های فروش من",
+      "no_listings": "تعداد لیست ها",
+      "no_history": "(به بخش \"تاریخ فروش\" منتقل شد) اندازه صفحه تاریخچه",
+      "totalrow": "نمایش قیمت خلاصه موارد",
+      "overallsum": "نمایش قیمت خلاصه موارد (همه صفحات)",
+      "highlight": "موارد گران قیمت را برجسته کنید",
+      "show_get_float": "Show \"Get Float\" function",
+      "show_stickers_wear": "Show \"Get sticker wear\" function",
+      "show_orders_currencies": "نمایش سفارشات ارزها",
+      "show_more_orders": "سفارشات خرید / فروش بیشتری نمایش دهید",
+      "orders_amount": "مقدار سفارشات نمایش داده شده",
+      "show_phase_color_listing": "Display items phases"
+    },
+    "tradeoffer": {
+      "title": "پیشنهادات تجاری",
+      "autocheckofferprice": "هنگام ارائه قیمت ، به طور خودکار قیمت دریافت کنید",
+      "autodecline": "پیشنهادات تجاری موجود را رد کنید",
+      "market_toggle": "به market.csgo.com اجازه دهید تا به طور ایمن از کلید API و پیوند تجاری من برای ایجاد و بررسی پیشنهادات تجاری استفاده کند",
+      "market_autoaccept_trades_toggle": "پذیرش خودکار پیشنهادهای تجاری هدیه (از طرف شما خالی) از from market.csgo.com",
+      "sih_market_toggle": "به SIH اجازه دهید تا به طور ایمن از کلید API و پیوند تجاری من برای ایجاد و بررسی پیشنهادات تجاری استفاده کند",
+      "sih_market_autoaccept_trades_toggle": "پذیرش خودکار پیشنهادهای تجاری هدیه (از طرف شما خالی) از from SIH",
+      "autoaccept": "پذیرش خودکار پیشنهادهای تجاری هدیه (از طرف شما خالی باشد)",
+      "offerdelay": "تأخیر بررسی قیمت پیشنهادات تجاری",
+      "quickaccept": "سریع قبول کنید",
+      "delay": "تاخیر انداختن",
+      "confirm": "تأیید را نشان دهید",
+      "quickrefuse": "رد سریع",
+      "totalprice": "نمایش قیمت پیشنهادی تجارت",
+      "custombuttons": "دکمه های سفارشی",
+      "manage": "مدیریت کنید",
+      "show_inventory_rarity_color_tradeoffer": "Display an additional colored frames with item rarity in CS:GO inventory",
+      "show_phase_color_tradeoffer": "Display items phases"
+    },
+    "friends": {
+      "title": "درخواستهای دوستی",
+      "ignoreinvites": "دعوت ها را در زیر نادیده بگیرید",
+      "blockinvites": "دعوت های زیر را مسدود کنید",
+      "steamlevel": "استیم یا اگر",
+      "private": "مشخصات خصوصی است",
+      "total": "همه",
+      "reset": "پاک کردن"
+    },
+    "extprice": {
+      "title": "قیمت های خارجی",
+      "showprice": "نمایش قیمت های خارجی",
+      "masslisting": "نمایش برای لیست انبوه",
+      "bgcolor": "رنگ پس زمینه",
+      "textcolor": "رنگ متن",
+      "customprovider": "ارائه دهنده قیمت سفارشی"
+    },
+    "profile": {
+      "title": "مشخصات",
+      "showsteamrep": "Show Steamrep",
+      "show_permalink": "Show profile permalink",
+      "show_related_accounts": "Show permalinks for the Steam-related services (uncheck to select service)"
+    },
+    "general": {
+      "title": "عمومی",
+      "txt_apikey": "کلید API خود را وارد کنید",
+      "txt_custom": "آدرس به صدای دلخواه",
+      "auto_currency": "خودکار (استفاده از ارز کیف پول)",
+      "auto_language": "خودکار (استفاده از محلی مرورگر)",
+      "autogetprice": "دریافت خودکار قیمت ها",
+      "on_hover": "On hover",
+      "agp_gem": "Dota 2 gems",
+      "agp_sticker": "CS:GO stickers",
+      "success": "موفقیت",
+      "error": "خطا",
+      "displaynof": "نمایش اعلان ها",
+      "offers": "پیشنهادات تجاری",
+      "friends": "درخواستهای دوستی",
+      "comments": "نظرات",
+      "nofsound": "صدای اعلان",
+      "nofsound_vol": "میزان صدا",
+      "displayvector": "نمایش قیمت وکتور",
+      "hidebanner": "آگهی های حامی مالی را مخفی کنید",
+      "bookmarks": "نشانک ها",
+      "ck_show": "نمایش",
+      "manage": "دسته ها را مدیریت کنید",
+      "clear": "پاک کردن نشانک ها",
+      "apikey": "Steam API key",
+      "get_apikey": "کلید خود را بگیرید",
+      "currency": "واحد پول",
+      "language": "زبان"
+    },
+    "default": "پیش فرض",
+    "defaultreset": "بازنشانی به حالت پیش فرض",
+    "note": "برای اعمال تغییرات باید صفحات فعلی را تازه کنید"
+  },
+  "newupdate": {
+    "updated_to": "به نسخه به روز شده است",
+    "last_changes": "آخرین تغییرات",
+    "view_changes": "برای مشاهده تغییرات در اینجا کلیک کنید",
+    "skip": "از این بگذر",
+    "or": "یا"
+  }
+}

@@ -1,0 +1,157 @@
+﻿{
+  "langcode": "he",
+  "about": {
+    "title": "עלינו"
+  },
+  "tradeoffers": {
+    "title": "הצעות סחר",
+    "signedout": "סטים: אתה יצאת מהחשבון. בבקשה <a href='https://steamcommunity.com/login/' target='_blank'>היכנס</a> או הגדר <b>מפתח API של סטים</b> בהגדרות",
+    "nooffers": "אין לך הצעות סחר נכנסות כרגע",
+    "countoffers": "יש לך {{NUMBERS}} הצעות מחיר",
+    "offerfrom": "יש לך הצעה מ {{USERNAME}}",
+    "offernoname": "יש לך הצעה",
+    "confirmation": "האם אתה בטוח?",
+    "yourprice": "המחיר שלך",
+    "theirprice": "המחיר שלו/ה",
+    "cancel": "לבטל",
+    "openall": "לפתוח הכל",
+    "open": "לפתוח",
+    "declineall": "לסרב להכל",
+    "decline": "לסרב",
+    "quickaccept": "אישור מהיר",
+    "quickrefuse": "סירוב מהיר",
+    "skinsjar": "בוט של מכירות בCSGO",
+    "payskins": "לשלם ע\"י סקינים",
+    "buyskins": "לקנות סקינים",
+    "sellskins": "למכור סקינים",
+    "giveaway": "דברים חינם"
+  },
+  "marketgraph": {
+    "title": "גרף השוק"
+  },
+  "bookmarks": {
+    "title": "סימניות"
+  },
+  "faq": {
+    "title": "שאלות נפוצות"
+  },
+  "settings": {
+    "title": "הגדרות",
+    "inventory": {
+      "title": "חפצים",
+      "buyset": "\"קניית פריטים חסרים\" button",
+      "quicksell": "\"מכירה מהירה\" button",
+      "instantsell": "\"מכירה מיידית\" button",
+      "selectall": "\"בחר הכל\" button",
+      "getprice": "\"שווי חפצים\" button",
+      "quickselldif": "הפרש המכירה המהירה ממחיר השוק",
+      "listdelay": "עיכוב בין מיקום פריטים בשוק",
+      "hidedefaultprice": "הסתר מידע של מחיר רגיל",
+      "simpify": "ממשק פשוט",
+      "show_float_value": "Show \"השג Float\" function",
+      "tradableinfo": "הצג סיכום של פריטים שלא ניתנים להחלפה"
+    },
+    "history_sales": {
+      "title": "היסטוריית המכירות",
+      "color_slot_removed": "Highlight slot removed",
+      "color_slot_placed": "Highlight slot placed",
+      "color_slot_purchased": "Highlight purchase",
+      "color_slot_sold": "Highlight sale",
+      "no_history": " (10 - 100)גודל עמוד ההיסטוריה"
+    },
+    "storeprices": {
+      "title": "מחירי פריטי החנות",
+      "show_historical_price": "המחיר הכי נמוך בכל הזמנים",
+      "show_current_price": "המחיר האקטואלי הכי נמוך",
+      "show_regional_price": "מחירים תחומיים",
+      "show_all_stores": "מחירים מכל החנויות (אל תסמן בשביל לבחור חנויות)",
+      "add_another_region": "הוסף"
+    },
+    "highlight": {
+      "title": "לסמן פריטי חנות",
+      "wishlist_items": "לסמן פריטים מהרשימת הבקשות",
+      "owned_items": "לסמן פריטים מהספריה שלך"
+    },
+    "listingmarket": {
+      "title": "מכירות ושוק",
+      "quickbuy": "\"קנייה מהירה\" button",
+      "no_mylistings": "מספר של המכירות שלי",
+      "no_listings": "מספר של מכירות",
+      "no_history": "(מועבר לסעיף \"היסטוריית המכירות\") גודל עמוד ההיסטוריה",
+      "totalrow": "הצג מחיר פריטים ממוצע",
+      "overallsum": "הצג מחיר פריטים ממוצע (כל העמודים)",
+      "highlight": "לסמן פריטים שמחירם גבוה מדיי",
+      "show_get_float": "Show \"השג Float\" function"
+    },
+    "tradeoffer": {
+      "title": "הצעות סחר",
+      "autocheckofferprice": "השג מחירים בהצעה אוטומטית",
+      "autodecline": "סרב להצעות סחר לא זמינות",
+      "offerdelay": "עיכוב בדיקת מחיר של הצעת סחר",
+      "quickaccept": "אישור מהיר",
+      "delay": "עיכוב",
+      "confirm": "הראה אישור",
+      "quickrefuse": "סירוב מהיר",
+      "totalprice": "הצג מחיר כולל של הצעת הסחר",
+      "custombuttons": "כפתורים מותאמים",
+      "manage": "נהל"
+    },
+    "friends": {
+      "title": "בקשות חברות",
+      "ignoreinvites": "התעלם מהזמנות מתחת ל",
+      "blockinvites": "חסום הזמנות מתחת ל",
+      "steamlevel": "רמה בסטים או אם",
+      "private": "הפרופיל פרטי",
+      "total": "סך הכל",
+      "reset": "נקה"
+    },
+    "extprice": {
+      "title": "מחירים חיצוניים",
+      "showprice": "הצג מחירים חיצוניים",
+      "masslisting": "הצג לרישום המוני",
+      "bgcolor": "צבע הרקע",
+      "textcolor": "צבע הטקסט",
+      "customprovider": "מספק מחירים מותאם"
+    },
+    "general": {
+      "title": "כללי",
+      "txt_apikey": "הכנס את מפתח הAPI שלך",
+      "txt_custom": "כתובת URL לצליל מותאם",
+      "auto_currency": "אוטומטי (השתמש במטבע הארנק)",
+      "auto_language": "אוטומטי (השתמש בדפדפן)",
+      "autogetprice": "אוטומטית השג מחירים",
+      "on_hover": "ריחוף עם העכבר",
+      "success": "הצלחה",
+      "error": "שגיאה",
+      "displaynof": "הצג התראות",
+      "offers": "הצעות סחר",
+      "friends": "בקשות חברות",
+      "comments": "תגובות",
+      "nofsound": "צליל התראה",
+      "nofsound_vol": "עוצמת הצליל",
+      "displayvector": "הראה מחיר וקטורי",
+      "showsteamrep": "הראה steamrep",
+      "show_permalink": "הראה קישור תמידי של הפרופיל",
+      "show_streamlink": "הראה קישורים בYouTube ובTwitch'",
+      "hidebanner": "הסתר באנרים של ספונסרים",
+      "bookmarks": "סימניות",
+      "ck_show": "הראה",
+      "manage": "נהל קטגוריות",
+      "clear": "נקה סימניות",
+      "apikey": "מפתח API של סטים",
+      "get_apikey": "השג את המפתח שלך",
+      "currency": "מטבע",
+      "language": "שפה"
+    },
+    "default": "ברירת מחדל",
+    "defaultreset": "הגדר מחדש לברירות מחדל",
+    "note": "את/ה חייב/ת להטעין מחדש עמודים נוכחים כדי ששינויים יכנסו לתוקף"
+  },
+  "newupdate": {
+    "updated_to": "התעדכן לגרסה",
+    "last_changes": "שינויים אחרונים",
+    "view_changes": "לחץ כאן כדי לראות שינויים",
+    "skip": "דלג על זה",
+    "or": "או"
+  }
+}

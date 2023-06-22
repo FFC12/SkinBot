@@ -1,0 +1,7 @@
+<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.5">
+<path d="M15 1C15.5523 1 16 1.44772 16 2L16 15C16 15.5523 15.5523 16 15 16L11 16L11 1L15 1Z" stroke="#BACBD3" stroke-width="2" stroke-linejoin="round"/>
+<rect x="11" y="1" width="15" height="5" transform="rotate(90 11 1)" stroke="#BACBD3" stroke-width="2" stroke-linejoin="round"/>
+<path d="M6 1L6 16L2 16C1.44771 16 0.999999 15.5523 0.999999 15L1 2C1 1.44772 1.44772 1 2 1L6 1Z" stroke="#BACBD3" stroke-width="2" stroke-linejoin="round"/>
+</g>
+</svg>

@@ -1,0 +1,207 @@
+{
+  "langcode": "tr",
+  "about": {
+    "title": "Hakkımızda",
+    "version": "Versiyon",
+    "store_link": "Mağaza linki",
+    "changelogs": "Değişim kaydı",
+    "steam_group": "Steam grup",
+    "privacy_policy": "Gizlilik Politikası",
+    "description": "Herhangi bir öneriniz veya hata raporunuz varsa - lütfen <a href='mailto:csinvhelp@gmail.com'>csinvhelp@gmail.com</a> adresinden bize e-posta gönderin veya <a href = 'https://steamcommunity.com/groups/SteamInventoryHelper 'target =' _ blank '>Steam grubumuz</a> tartışmalar kısmından bize yazın, yanıt verilecektir."
+  },
+  "tradeoffers": {
+    "title": "Ticaret teklifleri",
+    "signedout": "Steam: Hesabınızdan çıkış yaptınız. Lütfen <a href='https://steamcommunity.com/login/' target='_blank'>Giriş yap</a> veya ayarlardan <b>SteamAPI anahtarı</b> ayarla",
+    "pending": "Teklifler alınıyor. Lütfen bekle ...",
+    "nooffers": "Şu anda gelen takas teklifiniz yok",
+    "countoffers": "{{NUMBERS}} takas teklif(ler)iniz var",
+    "offerfrom": "{{USERNAME}} teklifiniz var",
+    "offernoname": "Teklifin var",
+    "confirmation": "Emin misiniz?",
+    "yourprice": "Senin fiyatın",
+    "theirprice": "Onun fiyatı",
+    "cancel": "İptal",
+    "openall": "Hepsini aç",
+    "open": "Aç",
+    "declineall": "Hepsini reddet",
+    "decline": "Reddet",
+    "quickaccept": "Hızlı kabul",
+    "quickrefuse": "Hızlı reddetme",
+    "sponsor": "Enter the promocode and win your dream inventory"
+  },
+  "marketgraph": {
+    "title": "Pazar grafiği"
+  },
+  "bookmarks": {
+    "title": "Yer imleri",
+    "name": "İsim",
+    "volume": "Ayar",
+    "price": "Fiyat",
+    "empty": "Liste boş",
+    "manage": "Kategorileri yönetin",
+    "selectcat": "Kategori seç",
+    "categorieslist": "Kategorileri listele",
+    "addcategory": "Kategorileri ekle",
+    "categoryname": "Kategorinin ismi",
+    "add": "Ekle",
+    "export": "Dışa aktar",
+    "import": "İçe aktar"
+  },
+  "faq": {
+    "title": "S.S.S."
+  },
+  "stores": {
+    "title": "Mağaza ayarları",
+    "prices": {
+      "title": "Mağaza fiyatları",
+      "show_historical_price": "Tüm zamanların en düşük fiyatını göster",
+      "show_current_price": "Gerçek en düşük fiyatı göster",
+      "show_regional_price": "Bölgesel fiyatı göster",
+      "preferred_country": "Dış mağaza fiyatları (ülke)",
+      "show_all_stores": "Tüm mağazalardan fiyatları (belirli mağazaların işaretini kaldırın)",
+      "add_another_region": "Ekle"
+    },
+    "highlight": {
+      "title": "Mağaza öğelerini vurgulayın",
+      "wishlist_items": "İstek listesindeki öğeleri vurgulayın",
+      "owned_items": "Kitaplığınızdaki öğeleri vurgulayın"
+    },
+    "others": {
+      "title": "Diğerleri",
+      "show_streamlink": "Youtube ve Twitch'teki bağlantıları göster",
+      "show_online_users": "Çevrimiçi oyuncu sayacını göster",
+      "show_spent_money": "Hesabınıza harcanan parayla ilgili bilgileri gösterin",
+      "show_badge_progress": "Uygulama rozetindeki ilerlemeyi göster"
+    }
+  },
+  "settings": {
+    "title": "Envanter & Pazar Ayarları",
+    "inventory": {
+      "title": "Envanter",
+      "buyset": "\"Eksik öğeleri satın alın\" butonu",
+      "quicksell": "\"Hızlı satın al\" butonu",
+      "instantsell": "\"Anında sat\" butonu",
+      "selectall": "\"Hepsini seç\" butonu",
+      "getprice": "\"Envanter değeri\" butonu",
+      "quickselldif": "Hızlı satış farkı",
+      "listdelay": "Girişlerin yerleştirilmesi arasında gecikme",
+      "hidedefaultprice": "Varsayılan fiyat bilgilerini gizle",
+      "simpify": "Basit Arayüz",
+      "show_float_value": "Aşınma \"işlevini\" göster",
+      "tradableinfo": "Takas edilemeyen öğelerin özetini göster",
+      "show_trade_unlock_date_badge": "Yuvasındaki bir öğenin kilit açma tarihini görüntüleyin",
+      "show_inventory_rarity_color": "CS: GO envanterinde öğe nadirliği olan ek bir renkli çerçeveler görüntüleyin",
+      "show_phase_color": "İtem aşamalarını görüntüle",
+      "show_improved_inventory_nav": "Geliştirilmiş envanter gezintisi",
+      "show_price_difference_warning": "Toplu satış penceresinde fiyat farkı uyarısını göster",
+      "show_levelup": "Rozetler sayfasında (BETA) Seviye Atlama panelini göster",
+      "levelup_use_available_cards": "Seviye Atlama özelliği için envanterinizdeki mevcut kartları kullanın"
+    },
+    "history_sales": {
+      "title": "Satış Tarihi",
+      "color_slot_removed": "Highlight slot removed",
+      "color_slot_placed": "Highlight slot placed",
+      "color_slot_purchased": "Highlight purchase",
+      "color_slot_sold": "Highlight sale",
+      "no_history": "Geçmiş sayfa boyutu (10 - 100)"
+    },
+    "listingmarket": {
+      "title": "Listeler ve pazar yeri",
+      "quickbuy": "\"Hızlı satın al\" butonu",
+      "no_mylistings": "Satış listelerimin sayısı",
+      "no_listings": "Liste sayısı",
+      "no_history": "Geçmiş sayfa boyutu(\"Satış Tarihi\" bölümüne aktarıldı)",
+      "totalrow": "Öğelerin özet fiyatını görüntüleyin",
+      "overallsum": "Öğelerin özet fiyatını görüntüle (tüm sayfalar)",
+      "highlight": "Aşırı fiyatlı öğeleri vurgulayın",
+      "show_get_float": "Aşınma \"işlevini\" göster",
+      "show_stickers_wear": "Çıkartma eskime \"işlevini\" göster",
+      "show_orders_currencies": "Sipariş para birimlerini görüntüleyin",
+      "show_more_orders": "Daha fazla alış/satış siparişi göster",
+      "orders_amount": "Görüntülenen sipariş miktarı",
+      "show_phase_color_listing": "İtem aşamalarını görüntüle"
+    },
+    "tradeoffer": {
+      "title": "Ticaret teklifleri",
+      "autocheckofferprice": "Teklif sırasında otomatik fiyat al",
+      "autodecline": "Kullanılamayan ticaret tekliflerini reddedin",
+      "market_toggle": "market.csgo.com'un ticaret teklifleri oluşturmak ve kontrol etmek için API anahtarımı ve ticaret bağlantımı güvenli bir şekilde kullanmasına izin ver",
+      "market_autoaccept_trades_toggle": "market.csgo.com'dan hediye ticaret teklifler (sizin tarafınızdan boş) \" otomatik kabul et",
+      "sih_market_toggle": "SIH'un ticaret teklifleri oluşturmak ve kontrol etmek için API anahtarımı ve ticaret bağlantımı güvenli bir şekilde kullanmasına izin ver",
+      "sih_market_autoaccept_trades_toggle": "SIH 'dan hediye ticaret teklifler (sizin tarafınızdan boş) \" otomatik kabul et",
+      "autoaccept": "Hediye ticaret teklifleri (sizin tarafınızdan boş) \" otomatik kabul et",
+      "offerdelay": "Ticaret teklifi fiyat kontrol gecikmesi",
+      "quickaccept": "Hızlı kabul et",
+      "delay": "Gecikme",
+      "confirm": "Onayı göster",
+      "quickrefuse": "Hızlı reddet",
+      "totalprice": "Takas teklifinin toplam fiyatını göster",
+      "custombuttons": "Özel butonlar",
+      "manage": "Yönetin",
+      "show_inventory_rarity_color_tradeoffer": "CS: GO envanterinde öğe nadirliği olan ek bir renkli çerçeveler görüntüleyin",
+      "show_phase_color_tradeoffer": "İtem aşamalarını görüntüle"
+    },
+    "friends": {
+      "title": "Arkadaşlık istekleri",
+      "ignoreinvites": "Aşağıdaki davetleri yoksay",
+      "blockinvites": "Aşağıdaki davetleri engelle",
+      "steamlevel": "Steam seviyesi veya eğer",
+      "private": "Özel profil",
+      "total": "Toplam",
+      "reset": "Temizle"
+    },
+    "extprice": {
+      "title": "Dış fiyatlar",
+      "showprice": "Dış fiyatları göster",
+      "masslisting": "Toplu listeleme için",
+      "bgcolor": "Arka plan rengi",
+      "textcolor": "Yazı rengi",
+      "customprovider": "Özel fiyat sağlayıcı"
+    },
+    "profile": {
+      "title": "Profil",
+      "showsteamrep": "Steamrep göster",
+      "show_permalink": "Kalıcı profil linkini göster",
+      "show_related_accounts": "Steam ile ilgili hizmetler için kalıcı bağlantıları göster (hizmet seçmek için işareti kaldırın)"
+    },
+    "general": {
+      "title": "Genel",
+      "txt_apikey": "API anahtarınızı girin",
+      "txt_custom": "Bildirim sesi",
+      "auto_currency": "Otomatik (cüzdan para birimini kullanın)",
+      "auto_language": "Otomatik (tarayıcı yerel ayarını kullanın)",
+      "autogetprice": "Fiyatları otomatik al",
+      "on_hover": "Üzerinde gezinme",
+      "agp_gem": "Dota 2 mücevherleri",
+      "agp_sticker": "CS:GO mücevherleri",
+      "success": "Başarı",
+      "error": "Hata",
+      "displaynof": "Bildirimleri göster",
+      "offers": "Ticaret teklifleri",
+      "friends": "Arkadaş istekleri",
+      "comments": "Yorumlar",
+      "nofsound": "Bildirim sesi",
+      "nofsound_vol": "Ses ayarı",
+      "displayvector": "Vektör fiyatını göster",
+      "hidebanner": "Sponsor afişlerini gizle",
+      "bookmarks": "Yer imleri",
+      "ck_show": "Göster",
+      "manage": "Kategorileri yönetin",
+      "clear": "Yer imlerini temizle",
+      "apikey": "Steam API anahtarı",
+      "get_apikey": "Anahtarını al",
+      "currency": "Para birimi",
+      "language": "Dil"
+    },
+    "default": "Varsayılan",
+    "defaultreset": "Varsayılan ayarları sıfırla",
+    "note": "Değişikliklerin etkili olması için mevcut sayfaları yenilemeniz gerekiyor"
+  },
+  "newupdate": {
+    "updated_to": "sürüme güncellendi",
+    "last_changes": "Son değişiklikler",
+    "view_changes": "Değişim kaydını görüntülemek için burayı tıklayın",
+    "skip": "bunu atla",
+    "or": "veya"
+  }
+}

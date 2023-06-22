@@ -1,0 +1,41 @@
+{
+  "langcode": "ka",
+  "about": {
+    "title": "შესახებ"
+  },
+  "settings": {
+    "title": "პარამეტრები",
+    "inventory": {
+      "buyset": "\"სეტის ყიდვა\" ღილაკი",
+      "quicksell": "\"სწრაფი გაყიდვა\" ღილაკი",
+      "quickselldif": "სწრაფი გაყიდვის განსხვავება",
+      "simpify": "გაამარტივებს UI"
+    },
+    "history_sales": {
+      "title": "გაყიდვების ისტორია",
+      "color_slot_removed": "Highlight slot removed",
+      "color_slot_placed": "Highlight slot placed",
+      "color_slot_purchased": "Highlight purchase",
+      "color_slot_sold": "Highlight sale",
+      "no_history": "History page size (10 - 100)"
+    },
+    "listingmarket": {
+      "quickbuy": "\"სწრაფი ყიდვა\" ღილაკი",
+      "totalrow": "ჯამური მწკრივი"
+    },
+    "tradeoffer": {
+      "autocheckofferprice": "ფასების ავტომატური მიღება",
+      "offerdelay": "ფასის შემოწმების შეფერხება",
+      "custombuttons": "კერძო ღილაკი"
+    },
+    "general": {
+      "currency": "ვალუტა",
+      "displaynof": "შეტყობინებების ჩვენება",
+      "displayvector": "ვექტორული ფასის ჩვენება",
+      "language": "ენა",
+      "nofsound": "შეტყობინებების ხმა",
+      "showsteamrep": "Steamrep-ის ჩვენება"
+    },
+    "note": "ცვლილებების დასანახად გვერდის განახლებაა საჭირო"
+  }
+}

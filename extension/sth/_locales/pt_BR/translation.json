@@ -1,0 +1,209 @@
+﻿{
+  "langcode": "pt_BR",
+  "about": {
+    "twitter": "Twitter",
+    "site": "Local",
+    "title": "Cerca de",
+    "version": "Versão",
+    "store_link": "LINE LINK.",
+    "changelogs": "Changelogs.",
+    "steam_group": "Grupo de vapor",
+    "privacy_policy": "Política de Privacidade",
+    "description": "Envie erros ou ideias para melhorar a funcionalidade ao correio de suporte técnico  <a href='mailto:sihtechnic@gmail.com'>sihtechnic@gmail.com</a> ou por entidade competente <a href='https://steamcommunity.com/groups/SteamInventoryHelper/discussions' target='_blank'>discussion</a> Tópico no grupo da steam.\n<br/><br/>\nSe o aplicativo acabou por ser útil, não se esqueça de avaliá-lo no <a href='https://chrome.google.com/webstore/detail/steam-inventory-helper/cmeakgjggjdlcpncigglobpjbkabhmjl' target='_blank'>extension store</a>.\n<br/><br/>\nEnviar ofertas comerciais para <a href='mailto:csinvhelp@gmail.com'>csinvhelp@gmail.com</a>."
+  },
+  "tradeoffers": {
+    "title": "OFERTA DE COMÉRCIOS.",
+    "signedout": "Steam: Você foi assinado fora da sua conta. Por favor <a href='https://steamcommunity.com/login/' target='_blank'>entrar</a> ou definir <b>SteamAPI key</b> Nas configurações",
+    "pending": "Propostas de busca. Por favor, espere...",
+    "nooffers": "Você não tem ofertas comerciais recebidas neste momento",
+    "countoffers": "Você tem {{NUMBERS}} oferta de comércio(s)",
+    "offerfrom": "Você recebeu oferta de {{USERNAME}}",
+    "offernoname": "Você tem oferta",
+    "confirmation": "Tem certeza?",
+    "yourprice": "Seu preço",
+    "theirprice": "Seu preço",
+    "cancel": "Cancelar",
+    "openall": "Abra tudo",
+    "open": "Abrir",
+    "declineall": "Recusar tudo",
+    "decline": "Recusar",
+    "quickaccept": "Aceitar rápido.",
+    "quickrefuse": "Recusar rápido",
+    "sponsor": "Digite o codigo promossional e ganhe o inventário dos sonhos"
+  },
+  "marketgraph": {
+    "title": "Gráfico de mercado"
+  },
+  "bookmarks": {
+    "title": "Favoritos",
+    "name": "Nome",
+    "volume": "Volume",
+    "price": "Preço",
+    "empty": "A lista está vazia",
+    "manage": "Gerenciar categorias",
+    "selectcat": "Selecione a Categoria",
+    "categorieslist": "Lista de categorias",
+    "addcategory": "Adicionar categorias",
+    "categoryname": "Nome da categoria",
+    "add": "Adicionar",
+    "export": "Exportar",
+    "import": "Importar"
+  },
+  "faq": {
+    "title": "FAQ"
+  },
+  "stores": {
+    "title": "Configurações da loja.",
+    "prices": {
+      "title": "Preços da loja.",
+      "show_historical_price": "Mostrar menor preço de todos os tempos",
+      "show_current_price": "Mostrar o preço mais baixo real",
+      "show_regional_price": "Mostrar preço regional",
+      "preferred_country": "Preços de lojas externas (país)",
+      "show_all_stores": "Preços de todas as lojas (desmarque para selecionar lojas)",
+      "add_another_region": "Adicionar"
+    },
+    "highlight": {
+      "title": "Destaque itens da loja.",
+      "wishlist_items": "Destaque itens da lista de desejos",
+      "owned_items": "Destaque itens da sua biblioteca"
+    },
+    "others": {
+      "title": "Outros",
+      "show_streamlink": "Mostrar links no YouTube e contração",
+      "show_online_users": "Mostrar jogadores online contador",
+      "show_spent_money": "Mostrar informações sobre os fundos gastos em sua conta",
+      "show_badge_progress": "Mostrar progresso de cartas aplicadas"
+    }
+  },
+  "settings": {
+    "title": "Configurações de Inventário e Mercado",
+    "inventory": {
+      "title": "Inventário",
+      "buyset": "\"Compre itens ausentes\" botão",
+      "quicksell": "\"Venda rápida\" botão",
+      "instantsell": "\"Venda instantânea\" botão",
+      "selectall": "\"Selecionar tudo\" botão",
+      "getprice": "\"Valor de inventário\" botão",
+      "quickselldif": "Diferença de venda rápida",
+      "listdelay": "Atraso entre listagens colocando",
+      "hidedefaultprice": "Ocultar informações de preço padrão",
+      "simpify": "Interface simples.",
+      "show_float_value": "Mostrar \"Pegue Float\" função",
+      "tradableinfo": "Mostrar resumo de itens não negociáveis",
+      "show_trade_unlock_date_badge": "Exibe a data de desbloqueio de um item em seu slot",
+      "show_inventory_rarity_color": "Exibir um quadros coloridos adicionais com o item Rarity em CS: Go Inventory",
+      "show_phase_color": "Exibir itens fases.",
+      "show_improved_inventory_nav": "Melhorar a navegação de inventário",
+      "show_price_difference_warning": "Mostrar diferença de preço Aviso na janela Venda em massa",
+      "show_levelup": "Mostrar painel de nível acima na página de cartas (BETA)",
+      "levelup_use_available_cards": "Use cartões já existentes em seu inventário para o recurso de nível"
+    },
+    "history_sales": {
+      "title": "Histórico de vendas",
+      "color_slot_removed": "Highlight slot removed",
+      "color_slot_placed": "Highlight slot placed",
+      "color_slot_purchased": "Highlight purchase",
+      "color_slot_sold": "Highlight sale",
+      "no_history": "Tamanho da página de histórico (10 - 100)"
+    },
+    "listingmarket": {
+      "title": "Listagens e Marketplace.",
+      "quickbuy": "\"Compra rápida\" botão",
+      "no_mylistings": "Número de listagens de vendas",
+      "no_listings": "Número de listagens",
+      "no_history": "Tamanho da página de histórico(Transferido para a seção \"Histórico de vendas\")",
+      "totalrow": "Exibir itens Resumo Price",
+      "overallsum": "Display Items Resumo Preço (todas as páginas)",
+      "highlight": "Destaque itens superfaturados",
+      "show_get_float": "Mostrar \"Pegue Float\" função",
+      "show_stickers_wear": "Mostrar \"Obter o desgaste da etiqueta.\" função",
+      "show_orders_currencies": "Moedas de pedidos de exibição",
+      "show_more_orders": "Exibir mais Comprar / Vender Pedidos",
+      "orders_amount": "Quantidade de pedidos exibidos",
+      "show_phase_color_listing": "Exibir itens fases."
+    },
+    "tradeoffer": {
+      "title": "OFERTA DE COMÉRCIOS.",
+      "autocheckofferprice": "Auto Obtê preços quando oferecer",
+      "autodecline": "Recusar ofertas comerciais indisponíveis",
+      "market_toggle": "Permitir que o Market.CSGO.com use com segurança minha chave de API e link comercial para criar e verificar ofertas comerciais",
+      "market_autoaccept_trades_toggle": "Aceitar Automaticamente \"Presente\" ofertas comerciais (vazias do seu lado) de market.csgo.com",
+      "sih_market_toggle": "Permitir que o SIH use com segurança minha chave de API e link comercial para criar e verificar ofertas comerciais",
+      "sih_market_autoaccept_trades_toggle": "Aceitar Automaticamente \"Presentes\" ofertas comerciais (vazias do seu lado) de SIH",
+      "autoaccept": "Aceitar Automaticamente \"Presentes\" Ofertas comercais (vazias do seu lado)",
+      "offerdelay": "Atraso de verificação de preço da oferta comercial",
+      "quickaccept": "Aceitar rápido.",
+      "delay": "Atraso",
+      "confirm": "Mostrar confirmação",
+      "quickrefuse": "Rejeitar rápido",
+      "totalprice": "Mostrar oferta comercial preço total",
+      "custombuttons": "Botões personalizados",
+      "manage": "Gerenciar",
+      "show_inventory_rarity_color_tradeoffer": "Exibir um quadros coloridos adicionais com o item Rarity em CS: Go Inventory",
+      "show_phase_color_tradeoffer": "Exibir itens fases."
+    },
+    "friends": {
+      "title": "Pedidos de amizade",
+      "ignoreinvites": "Ignorar convites abaixo",
+      "blockinvites": "Bloquear convites abaixo",
+      "steamlevel": "Nível de vapor ou se",
+      "private": "O perfil é privado",
+      "total": "total",
+      "reset": "Limpar"
+    },
+    "extprice": {
+      "title": "Preços externos",
+      "showprice": "Exibir preços externos",
+      "masslisting": "Display para listagem de massa",
+      "bgcolor": "Cor de fundo",
+      "textcolor": "Cor do texto",
+      "customprovider": "Provedor de preços personalizados"
+    },
+    "profile": {
+      "title": "Perfil",
+      "showsteamrep": "Mostre steamrep.",
+      "show_permalink": "Mostrar Perfil Permalink.",
+      "show_related_accounts": "Mostrar Permalinks para os serviços relacionados a vapor (desmarque para selecionar o serviço)"
+    },
+    "general": {
+      "title": "Em geral",
+      "txt_apikey": "Digite sua chave de API",
+      "txt_custom": "URL para som personalizado",
+      "auto_currency": "Auto (use a moeda da carteira)",
+      "auto_language": "Auto (use localidade do navegador)",
+      "autogetprice": "Auto Obtenha preços",
+      "on_hover": "Em pairar",
+      "agp_gem": "DotA 2 Gems.",
+      "agp_sticker": "CS:GO stickers",
+      "success": "Sucesso",
+      "error": "Erro",
+      "displaynof": "Notificações de exibição",
+      "offers": "OFERTA DE COMÉRCIOS.",
+      "friends": "Pedidos de amizade",
+      "comments": "Comentários",
+      "nofsound": "Som de notificação",
+      "nofsound_vol": "Volume de som",
+      "displayvector": "Mostrar o preço do vetor",
+      "hidebanner": "Ocultar banners do patrocinador",
+      "bookmarks": "Favoritas",
+      "ck_show": "Mostrar",
+      "manage": "Gerenciar categorias",
+      "clear": "Limpar favoritos",
+      "apikey": "Chave de API a vapor",
+      "get_apikey": "Obtenha sua chave",
+      "currency": "Moeda",
+      "language": "Idioma"
+    },
+    "default": "Padrão",
+    "defaultreset": "Redefinir para padrões",
+    "note": "Você precisa atualizar as páginas atuais para que as alterações entrem em vigor"
+  },
+  "newupdate": {
+    "updated_to": "foi atualizado para a versão",
+    "last_changes": "Últimas alterações",
+    "view_changes": "Clique aqui para ver Changelogs",
+    "skip": "pule isso",
+    "or": "ou"
+  }
+}

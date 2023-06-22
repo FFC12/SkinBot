@@ -1,0 +1,157 @@
+[
+  {
+    "id": "sih_steam_median",
+    "title": "SIH Steam Median",
+    "color": "#ffffff"
+  },
+  {
+    "id": "csmoney_trade",
+    "title": "CSMoney Trade",
+    "color": "#ffffff"
+  },
+  {
+    "id": "buff163",
+    "title": "Buff163",
+    "color": "#ffffff"
+  },
+  {
+    "id": "csmoney_buy",
+    "title": "CSMoney Store",
+    "color": "#ffffff"
+  },
+  {
+    "id": "steam",
+    "title": "SIH Steam",
+    "color": "#9f3afc"
+  },
+  {
+    "id": "backpacktf",
+    "title": "BackpackTF",
+    "color": "#ffffff"
+  },
+  {
+    "id": "bitskins",
+    "title": "BitSkins",
+    "color": "#ffffff"
+  },
+  {
+    "id": "bpoints",
+    "title": "BPoints",
+    "color": "#ffffff"
+  },
+  {
+    "id": "csgobackpack",
+    "title": "CSGOBackpack",
+    "color": "#ffffff"
+  },
+  {
+    "id": "csgofast",
+    "title": "CSGOFast",
+    "color": "#ffffff"
+  },
+  {
+    "id": "marketcsgocom",
+    "title": "MarketCSGOcom",
+    "color": "#ffffff"
+  },
+  {
+    "id": "csmoney",
+    "title": "CSMoney",
+    "color": "#ffffff"
+  },
+  {
+    "id": "d2droulette",
+    "title": "D2D Roulette",
+    "color": "#ffffff"
+  },
+  {
+    "id": "steamanalyst",
+    "title": "SteamAnalyst",
+    "color": "#ffffff"
+  },
+  {
+    "id": "dmarket",
+    "title": "DMarket",
+    "color": "#ffffff"
+  },
+  {
+    "id": "dota247",
+    "title": "Dota247",
+    "color": "#ffffff"
+  },
+  {
+    "id": "marketdota2net",
+    "title": "MarketDota2Net",
+    "color": "#ffffff"
+  },
+  {
+    "id": "lootfarm",
+    "title": "LootFarm",
+    "color": "#ffffff"
+  },
+  {
+    "id": "steamlvlup",
+    "title": "SteamLvlUp",
+    "color": "#ffffff"
+  },
+  {
+    "id": "steamlvlupgems",
+    "title": "SteamLvlUp (Gems)",
+    "color": "#ffffff"
+  },
+
+  {
+    "id": "skinport",
+    "title": "Skinport",
+    "color": "#ffffff",
+    "currencies": [
+      1,
+      3,
+      6,
+      7,
+      9,
+      20,
+      21
+    ]
+  },
+  {
+    "id": "waxpeer",
+    "title": "Waxpeer",
+    "color": "#ffffff"
+  },
+  {
+    "id": "shadowpay",
+    "title": "Shadowpay",
+    "color": "#ffffff"
+  },
+  {
+    "id": "skinbaron",
+    "title": "Skinbaron",
+    "color": "#ffffff"
+  },
+  {
+    "id": "mannco",
+    "title": "Mannco",
+    "color": "#ffffff"
+  },
+  {
+    "id": "tradeit",
+    "title": "Tradeit",
+    "color": "#ffffff"
+  },
+  {
+    "id": "cs_trade",
+    "title": "CS.Trade",
+    "color": "#ffffff"
+  },
+  {
+    "id": "loot_farm",
+    "title": "Lootfarm",
+    "color": "#ffffff"
+  },
+  {
+    "id": "market_swap_gg",
+    "title": "Swapgg",
+    "color": "#ffffff"
+  }
+]
