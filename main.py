@@ -54,9 +54,6 @@ def check_rows(driver, auto, item_float_above, item_float_below, item_price):
         # get html of element
         rows = rows.get_attribute("innerHTML")
 
-        with open("rows_general.html", "w") as f:
-            f.write(rows)
-
         # split by each div
         soup = BeautifulSoup(rows, "html.parser")
 
@@ -115,8 +112,8 @@ def check_rows(driver, auto, item_float_above, item_float_below, item_price):
                     logger.info(f"Found href: {href}")
 
                     if auto:
-                        driver.execute_script(href)
-                        logger.success("Skin bought!")
+                        # buy the skin
+                        buy(driver, href, price, float_data)
                     else:
                         data = {
                             "href": href,
@@ -134,7 +131,7 @@ def check_rows(driver, auto, item_float_above, item_float_below, item_price):
                     "Trying again after 2 seconds. This causes by the Inventory Helper "
                     "(not because of me as a bot lol).")
         time.sleep(2)
-        return check_rows(driver, item_float_above, item_float_below, item_price)
+        return check_rows(driver, auto, item_float_above, item_float_below, item_price)
 
 
 def bot_loop(path=None, wait_time=20, auto=False, page_limit=100,
@@ -268,16 +265,30 @@ def buy_mode(target_link):
         # get javascript code
         href = skin["href"]
 
-        # inject javascript
-        driver.execute_script(href)
+        # buy
+        buy(driver, href, skin["float"], skin["price"])
 
-        #TODO: further logic not implemented yet
-        sys.exit()
 
-        # bought
-        logger.success("Bought the skin with float {} and price {}".format(skin["float"], skin["price"]))
+def buy(driver, href, skin, price):
+    # inject javascript
+    driver.execute_script(href)
 
-        logger.info("----- DONE ----\n")
+    # click the checkbox 'market_buynow_dialog_accept_ssa'
+    checkbox = driver.find_element(By.ID, "market_buynow_dialog_accept_ssa")
+
+    # click the checkbox
+    driver.execute_script("arguments[0].click();", checkbox)
+
+    # `market_listing_buy_button sih` find the div by xpath
+    buy_button = driver.find_element(By.XPATH, "//div[@class='market_listing_buy_button sih']")
+
+    # it has `a `child element, so we need to click the child element
+    driver.execute_script("arguments[0].click();", buy_button.find_element(By.TAG_NAME, "a"))
+
+    # bought
+    logger.success("Bought the skin with float {} and price {}".format(skin, price))
+
+    logger.info("----- DONE ----\n")
 
 
 
@@ -286,6 +297,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Steam Community Market Bot - Developed by @ffc12")
 
     # add arguments
+    parser.add_argument("-c", "--chrome", help="path to chrome.exe", required=False, default="driver/chromedriver.exe")
     parser.add_argument("-p", "--path", help="path to target.json file", required=False, default="target/target.json")
     parser.add_argument("-t", "--time", help="wait time to avoid 'Too many requests' error from Steam", required=False,
                         default=20)
@@ -310,7 +322,7 @@ if __name__ == "__main__":
     # detect if system is Windows
     if sys.platform == 'win32':
         # set executable path to chromedriver.exe
-        options.add_argument("--binary_location=driver/chromedriver.exe")
+        options.add_argument(f"--binary_location={args.chrome}")
     else:
         if os.path.exists("/usr/bin/chromium"):
             options.add_argument("--binary_location=/usr/bin/chromedriver")
@@ -321,8 +333,11 @@ if __name__ == "__main__":
     # FIXME: headless (no GUI) but not working for some reason
     # options.add_argument('--headless')
 
+    # find the absolute path of the extension
+    extension_path = os.path.abspath('extension/sth/')
+
     # load extension
-    options.add_argument('--load-extension=extension/sth/')
+    options.add_argument(f'--load-extension={extension_path}')
 
     # save Chrome data
     options.add_argument(f"--user-data-dir={os.getcwd()}/chrome_data")

@@ -12,7 +12,7 @@ SkinBot is a Selenium bot that can be used to find skins with the cheapest price
    ```
 2. Install Python packages (preferably in a virtual environment)
    ```sh
-    pip install -r requirements.txt
+   pip install -r requirements.txt
     ```
 
 ### Usage
